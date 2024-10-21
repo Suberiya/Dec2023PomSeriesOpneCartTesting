@@ -35,5 +35,3 @@ public class Testing {
 		System.out.println("Param1: " + param1 + ", Param2: " + param2 + ", Param3: " + param3 +  "Param 4" + p4 + " Param 5" + p5);
 	}
 }
-
-

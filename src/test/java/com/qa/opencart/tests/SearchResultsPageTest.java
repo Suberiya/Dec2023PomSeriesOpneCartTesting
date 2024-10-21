@@ -18,7 +18,7 @@ public class SearchResultsPageTest extends BaseTest{
 	@DataProvider
 	public Object[][] getProductCountData() {
 		return new Object[][] {
-			{"macbook", 2},
+			{"macbook", 3},
 			{"imac", 1},
 			{"samsung", 2}
 		};
@@ -33,6 +33,7 @@ public class SearchResultsPageTest extends BaseTest{
 	
 	@Test
 	public void searchResultsTest() {
-		Assert.assertEquals(searchResultsPage.getSearchProductCount(), 2);
+		Assert.assertEquals(searchResultsPage.getSearchProductCount(), 3);
 	}
+
 }

@@ -13,6 +13,7 @@ import io.qameta.allure.Step;
 public class LoginPage {
    
 	
+	//Page class/Page Library/Page Object
 		private WebDriver driver;
 		private ElementUtil eleUtil;
 
@@ -22,6 +23,7 @@ public class LoginPage {
 		private By loginButton = By.xpath("//input[@value='Login']");
 		private By forgotPWdLink = By.linkText("Forgotten Password");
 		private By registerLink = By.linkText("Register");
+
 
 
 		// 2. Public Page Class Const...
@@ -65,5 +67,6 @@ public class LoginPage {
 			eleUtil.waitForElementVisible(registerLink, TimeUtil.DEFAULT_LONG_TIME).click();
 			return new RegisterationPage(driver);
 		}
+		
 
-}
+	}

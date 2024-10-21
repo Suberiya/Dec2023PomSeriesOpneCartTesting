@@ -5,7 +5,7 @@ public class AppConstants {
 	
 	
 	
-	public static final String LOGIN_PAGE_TITLE = "Account Login";
+	public static final String LOGIN_PAGE_TITLE = "buyBooma";
 
 	public static final String ACCOUNTS_PAGE_TITLE = "My Account";
 
@@ -19,4 +19,4 @@ public class AppConstants {
 	//***************Sheet Name**************//
 	public static final String REGISTER_SHEET_NAME = "register";
 	public static final String PRODUCT_SHEET_NAME = "product";
-}
+	}

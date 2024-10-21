@@ -15,9 +15,5 @@ public class AnnotationTransformer implements IAnnotationTransformer{
 			Constructor testConstructor, 
 			Method testMethod) {
 		annotation.setRetryAnalyzer(Retry.class);
-	
-}
-	
-	
-	
+	}
 }

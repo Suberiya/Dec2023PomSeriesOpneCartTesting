@@ -9,10 +9,7 @@ import org.testng.annotations.Test;
 import com.qa.opencart.base.BaseTest;
 import com.qa.opencart.constants.AppConstants;
 
-public class AccountPageTest extends BaseTest{
-
-	
-	
+public class AccountPageTest extends BaseTest {
 	@BeforeClass
 	public void accSetup() {
 		accPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
@@ -49,5 +46,6 @@ public class AccountPageTest extends BaseTest{
 	@Test
 	public void searchTest() {
 		accPage.doSearch("macbook");
-	}	
+	}
+
 }

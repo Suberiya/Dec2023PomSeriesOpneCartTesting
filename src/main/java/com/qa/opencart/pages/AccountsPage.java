@@ -69,6 +69,4 @@ public class AccountsPage {
 			eleUtil.doClick(searchIcon);
 			return new SearchResultsPage(driver);
 		}
-	
-
-}
+	}
